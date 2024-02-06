@@ -1,0 +1,154 @@
+.center {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%); */
+  padding: 10px;
+}
+
+.btn-circle {
+    font-size: 26px;
+    width: 55px;
+    height: 55px;
+    margin-top: 15px;
+    line-height: 45px;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+    color: white;
+    border: 2px solid white;
+    border-radius: 100% !important;
+    background: transparent;
+}
+
+.large-div{
+	max-width: 95%;
+}
+
+.img-wrap{
+	position: relative;
+}
+
+.description{
+	position: absolute;
+	background-color: rgba(0,0,0,0);
+	color: white;
+	width:100%;
+	bottom: 0em;
+	font-size:1em;
+	margin-left:10px;
+	
+}
+
+.description h3 {
+	color:white;
+}
+
+
+
+
+
+
+.brighten img {
+-webkit-filter: brightness(50%);
+-webkit-transition: all .5s ease;
+-moz-transition: all .5s ease;
+-o-transition: all .5s ease;
+-ms-transition: all .5s ease;
+transition: all .5s ease;
+}
+
+.brighten img:hover {
+-webkit-filter: brightness(100%);
+}
+
+.brighten img:hover + .description{
+/* -webkit-filter: brightness(0%); */
+transition:  0.6s all;
+transform: translate3d(0, -10px, 0);
+
+}
+
+.bigpadding{
+	padding-top:200px;
+	padding-bottom:200px;
+}
+
+.button--submit{
+	position: relative;
+	padding: 8px 16px;
+}
+
+.button--text{
+	transition : all 0.2s;
+}
+
+.button--submit-ok{
+	transition : all 0.2s;
+	background:transparent !important;
+	color:green !important;
+	border: 2px solid black !important;
+	border-color:green !important;
+}
+
+.button--submit-progress{
+	transition : all 1s;
+	width: 55px !important;
+}
+
+.button--loading .button--text{
+	visibility: hidden;
+	opacity:0;
+}
+
+.button--loading::after{
+	content:"";
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	/* background: red; */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border: 4px solid transparent;
+	border-top-color: #ffffff;
+	border-radius: 50%;
+	animation: button-loading-spinner 1s ease infinite;
+}
+
+@keyframes button-loading-spinner {
+	from {
+		transform: rotate(0turn);
+	}
+	to {
+		transform: rotate(1turn);
+	}
+}
+
+
+#cc-main .cm__btn2 {
+	background-color:#242c31 !important;
+	color:lightgrey !important;
+	border-color: transparent !important;
+	/* border:0 !important; */
+}
+
+#cc-main .cm__btn3 {
+	background-color:#242c31 !important;
+	color:lightgrey !important;
+	border-color: transparent !important;
+	/* border:0 !important; */
+}
+
+#cc-main .cm__btn2:hover {
+	background-color:#353d43 !important;
+}
+
+#cc-main .cm__btn3:hover {
+	background-color:#353d43 !important;
+}
+
+.text-link{
+	color:#aebbc5 !important;
+}
