@@ -1,1 +1,1 @@
-# agolights.github.io
+www.agolights.com
