@@ -486,6 +486,9 @@ strong {
   overflow: hidden;
   padding-top: 100px;
   height: calc(100vh - 0px);
+  background-image: url('../video/agolights_2024_720p_1stframe.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .hero-section small {
