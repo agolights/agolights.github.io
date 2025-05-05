@@ -1,7 +1,7 @@
 
 
 var form = document.getElementById('contactForm');
-const url = 'https://script.google.com/macros/s/AKfycbyymB838KzzIELhcDeBbO8pfhGGQoFeBxJXapjzIi3vjQEdTLKI9XHH8UiVSYSyU8Cc/exec';
+const url = 'https://script.google.com/macros/s/AKfycbxHJpaXyygHS8IyHepxSHOU_z4BOH4MJmHdQjWMsJmo3rtLWS0a-JyUXizlIBsuWmnf1w/exec';
 var submitButton = document.getElementById("submitButton");
 
 
